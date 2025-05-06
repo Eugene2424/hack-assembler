@@ -1,32 +1,60 @@
-# Prerequisites
-*.d
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]og/
+[Ll]ogs/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Rider-specific files
+.idea/
+*.sln.iml
 
-# Precompiled Headers
-*.gch
-*.pch
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# VS Code settings (if used alongside)
+.vscode/
 
-# Fortran module files
-*.mod
-*.smod
+# Backup & Crash Reports
+*.bak
+*.tmp
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
 
-# Executables
-*.exe
-*.out
-*.app
+# Rider Cache
+.idea/.ideaModules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf/
+
+# DotCover
+*.dotCover
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Other cache
+*.vs/
